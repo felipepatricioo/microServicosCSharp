@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XRf6Yq3oIFk2O9zz0ifa2VEPxBJnOkHEGask9NybDFCvQN4+41QFlB4OqSG7i4JhbeBO2O8uA3u5tDYS0FN3Qw==",
+  "dgSpecHash": "Wf0OQyz/mAmbV48b1u8BqFNxfhaaufgLMEWNZ6JS9RVqVJnohgK5axtmO652ZLLruawbCiOFV1zlUckiUzAhZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShopping\\eBookShopping.Web\\eBookShopping.Web.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,8 @@
     "C:\\Users\\estagiario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\estagiario\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+    "C:\\Users\\estagiario\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+    "C:\\Users\\estagiario\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
   "logs": []
 }
