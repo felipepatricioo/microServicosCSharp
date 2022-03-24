@@ -11,10 +11,8 @@ namespace eBookShopping.ProductAPI.Models.Context
 
         public MySQLContext() {}
 
-        public MySQLContext(DbContextOptions<MySQLContext> options) : base(options)
-        {
+        public MySQLContext(DbContextOptions<MySQLContext> options) : base(options) {}
 
-        }
-
+        public DbSet<Produto> Produto { get; set; }
     }
 }
