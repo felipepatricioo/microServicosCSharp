@@ -1,4 +1,7 @@
+using AutoMapper;
+using eBookShopping.ProductAPI.Config;
 using eBookShopping.ProductAPI.Models.Context;
+using eBookShopping.ProductAPI.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -32,6 +35,14 @@ namespace eBookShopping.ProductAPI
                 UseMySql(connection,
                         new MySqlServerVersion(
                             new Version(8, 0, 28))));
+
+
+            IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+            services.AddSingleton(mapper);
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
+            services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddControllers();
         }
