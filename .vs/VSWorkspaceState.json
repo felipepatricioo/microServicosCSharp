@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\eBookShoppingMK-04-JWTAuth",
+    "\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web",
+    "\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web\\Views",
+    "\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web\\Views\\Product"
   ],
-  "SelectedNode": "\\eBookShopping.sln (eBookShoppingMK-03-Web\\eBookShopping.sln)",
+  "SelectedNode": "\\eBookShoppingMK-04-JWTAuth\\eBookShopping.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -54,7 +54,7 @@ namespace eBookShopping.ProductAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseHttpsRedirection();
             app.UseRouting();
 
             app.UseAuthorization();
