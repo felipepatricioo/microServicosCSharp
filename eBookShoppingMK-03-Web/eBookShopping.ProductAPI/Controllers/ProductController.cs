@@ -13,7 +13,7 @@ namespace eBookShopping.ProductAPI.Controllers
     public class ProductController : ControllerBase
     {
 
-        private IProductRepository _repository;
+        private readonly IProductRepository _repository;
 
         public ProductController(IProductRepository repository)
         {

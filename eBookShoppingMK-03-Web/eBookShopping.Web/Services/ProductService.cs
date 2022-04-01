@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace GeekShopping.Web.Services
+namespace eBookShopping.Web.Services
 {
     public class ProductService : IProductService
     {
