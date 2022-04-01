@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HxfntwdFFU2qGUiRs+1fa4QyE9EBES/wnWg+2juYz1duqajK+cnebquZmqMycw4gXTTUDEs00zOsjTxBzNCofw==",
+  "dgSpecHash": "tamMo7e7uJJGPbQ5P53tdUQBrBJgnXCrJVIxD7exbUz5j6HUuTYGgH04lixemtiZj1qG8O94DI7dQ9YphDO8pA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-03-Web\\eBookShopping.Web\\eBookShopping.Web.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web\\eBookShopping.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estagiario\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.21\\microsoft.aspnetcore.mvc.razor.extensions.3.1.21.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.21\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.21.nupkg.sha512",

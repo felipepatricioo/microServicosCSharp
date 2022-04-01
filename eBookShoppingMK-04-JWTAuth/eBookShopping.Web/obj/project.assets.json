@@ -663,11 +663,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-03-Web\\eBookShopping.Web\\eBookShopping.Web.csproj",
+      "projectUniqueName": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web\\eBookShopping.Web.csproj",
       "projectName": "eBookShopping.Web",
-      "projectPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-03-Web\\eBookShopping.Web\\eBookShopping.Web.csproj",
+      "projectPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web\\eBookShopping.Web.csproj",
       "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-03-Web\\eBookShopping.Web\\obj\\",
+      "outputPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
