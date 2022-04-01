@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Akz1GvGFck0D683Bna7jvAsUNiuieUc+nXWl1cwgYBiubpR8b++gaT9hn3o1TG5fg8zte0OWN1kH8q9dZ70ukw==",
+  "dgSpecHash": "i2Pl7ipiR49LnfwYI1vjmc3MebqZd34xxUP3/LCA/iu2iZqWOy5g6NlBnfoURBjl6G07QTDH/1yRL47utNtpqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-02-Architecture\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-03-Web\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estagiario\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
