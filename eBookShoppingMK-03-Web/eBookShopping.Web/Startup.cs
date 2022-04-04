@@ -1,6 +1,5 @@
 using eBookShopping.Web.Services;
 using eBookShopping.Web.Services.IServices;
-using GeekShopping.Web.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
