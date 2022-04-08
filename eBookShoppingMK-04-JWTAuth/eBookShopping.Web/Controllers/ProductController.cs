@@ -1,5 +1,7 @@
 ﻿using eBookShopping.Web.Models;
 using eBookShopping.Web.Services.IServices;
+using eBookShopping.Web.Utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -16,13 +18,14 @@ namespace eBookShopping.Web.Controllers
         {
             _productService = productService ?? throw new ArgumentNullException(nameof(productService));
         }
-
+        [Authorize]
         public async Task<IActionResult> ProductIndex()
         {
             var products = await _productService.FindAllProducts();
             return View(products);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> ProductCreate(ProductModel model)
         {
@@ -42,6 +45,8 @@ namespace eBookShopping.Web.Controllers
             return NotFound();
         }
 
+
+        [Authorize(Roles = Role.Admin)]
         [HttpPost]
         public async Task<IActionResult> ProductUpdate(ProductModel model)
         {
@@ -62,6 +67,7 @@ namespace eBookShopping.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = Role.Admin)]
         public async Task<IActionResult> ProductDelete(ProductModel model)
         {
             var response = await _productService.DeleteProductById(model.Id);

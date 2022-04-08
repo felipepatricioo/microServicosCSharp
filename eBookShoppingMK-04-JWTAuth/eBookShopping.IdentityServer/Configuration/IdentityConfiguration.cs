@@ -36,7 +36,7 @@ namespace eBookShopping.IdentityServer.Configuration
                 },
                 new Client
                 {
-                    ClientId = "geek_shopping",
+                    ClientId = "ebook_shopping",
                     ClientSecrets = { new Secret("my_super_secret".Sha256())},
                     AllowedGrantTypes = GrantTypes.Code,
                     RedirectUris = {"https://localhost:4430/signin-oidc"},
