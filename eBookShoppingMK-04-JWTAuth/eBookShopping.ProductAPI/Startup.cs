@@ -42,6 +42,7 @@ namespace eBookShopping.ProductAPI
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
+
             services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddControllers();
