@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GYJ9+5ZroqaxdV19TiolEWXChdNupwjHW3UNUXiViVWHKE4Xed5ZHt26j0VuPrLH0jp8Qv9XjigW/6+I8AAeAw==",
+  "dgSpecHash": "8YDJD27r9uWOsrM74t+rlt7CMvudLUqdaSi73CnkGGXy7fo6svTfcBVN2Uah3cfGfYUeabnDztymxepirddQPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-04-JWTAuth\\eBookShopping.IdentityServer\\eBookShopping.IdentityServer.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMK-04-JWTAuth\\eBookShopping.IdentityServer\\eBookShopping.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estagiario\\.nuget\\packages\\duende.identityserver\\6.1.0-preview.3\\duende.identityserver.6.1.0-preview.3.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\duende.identityserver.aspnetidentity\\6.1.0-preview.3\\duende.identityserver.aspnetidentity.6.1.0-preview.3.nupkg.sha512",

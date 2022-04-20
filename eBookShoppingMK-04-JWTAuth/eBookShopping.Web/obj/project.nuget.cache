@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "75NqVBryDLV4VBDF5zPpY2lXki9lSAwBtFxaGJSzrxSwzj7BxIoNVA7Inc+ErH2H+DwXIdMfFmj6H/2sAMWtGg==",
+  "dgSpecHash": "GrSahjN3L3Kj6A/PmPi1W0/35AhGzCJpWT2tod+fAIweHyCHAvO6TgtxFsN65MrrFxipV8Ddqjbok+bi1XgfxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\microServicosCSharp\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web\\eBookShopping.Web.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMK-04-JWTAuth\\eBookShopping.Web\\eBookShopping.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estagiario\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

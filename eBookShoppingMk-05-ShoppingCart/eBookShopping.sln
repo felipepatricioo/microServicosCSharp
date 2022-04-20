@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{5207AEC7-69EC-4EF9-8790-5F2E3E092C4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D6495DDB-15A5-49D5-A382-1FD6D4A84709}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.Web", "eBookShopping.Web\eBookShopping.Web.csproj", "{0383060B-0511-48FF-A227-0F27D8D8D10F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.ProductAPI", "eBookShopping.ProductAPI\eBookShopping.ProductAPI.csproj", "{8843BEA3-6659-4A27-A7EC-6C3AD2804FD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.IdentityServer", "eBookShopping.IdentityServer\eBookShopping.IdentityServer.csproj", "{674CB82C-317C-4FBA-8A45-56401D7AC74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookShopping.CartAPI", "eBookShopping.CartAPI\eBookShopping.CartAPI.csproj", "{0B34C589-3C4D-4966-B6B1-822A3A75AC71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0383060B-0511-48FF-A227-0F27D8D8D10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0383060B-0511-48FF-A227-0F27D8D8D10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0383060B-0511-48FF-A227-0F27D8D8D10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0383060B-0511-48FF-A227-0F27D8D8D10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8843BEA3-6659-4A27-A7EC-6C3AD2804FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8843BEA3-6659-4A27-A7EC-6C3AD2804FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8843BEA3-6659-4A27-A7EC-6C3AD2804FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8843BEA3-6659-4A27-A7EC-6C3AD2804FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674CB82C-317C-4FBA-8A45-56401D7AC74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674CB82C-317C-4FBA-8A45-56401D7AC74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674CB82C-317C-4FBA-8A45-56401D7AC74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674CB82C-317C-4FBA-8A45-56401D7AC74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B34C589-3C4D-4966-B6B1-822A3A75AC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B34C589-3C4D-4966-B6B1-822A3A75AC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B34C589-3C4D-4966-B6B1-822A3A75AC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B34C589-3C4D-4966-B6B1-822A3A75AC71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0383060B-0511-48FF-A227-0F27D8D8D10F} = {5207AEC7-69EC-4EF9-8790-5F2E3E092C4A}
+		{8843BEA3-6659-4A27-A7EC-6C3AD2804FD9} = {D6495DDB-15A5-49D5-A382-1FD6D4A84709}
+		{674CB82C-317C-4FBA-8A45-56401D7AC74B} = {D6495DDB-15A5-49D5-A382-1FD6D4A84709}
+		{0B34C589-3C4D-4966-B6B1-822A3A75AC71} = {D6495DDB-15A5-49D5-A382-1FD6D4A84709}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C923E59-3FEE-42D2-B932-0148E02D1D96}
+	EndGlobalSection
+EndGlobal
