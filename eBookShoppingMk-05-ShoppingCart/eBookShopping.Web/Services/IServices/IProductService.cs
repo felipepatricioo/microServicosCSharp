@@ -7,13 +7,13 @@ namespace eBookShopping.Web.Services.IServices
     public interface IProductService
     {
 
-        Task<IEnumerable<ProductModel>> FindAllProducts(string token);
+        Task<IEnumerable<ProductViewModel>> FindAllProducts(string token);
 
-        Task<ProductModel> FindProductById(long id, string token);
+        Task<ProductViewModel> FindProductById(long id, string token);
 
-        Task<ProductModel> Create(ProductModel model, string token);
+        Task<ProductViewModel> Create(ProductViewModel model, string token);
 
-        Task<ProductModel> Update(ProductModel model, string token);
+        Task<ProductViewModel> Update(ProductViewModel model, string token);
 
         Task<bool> DeleteProductById(long id, string token);
 

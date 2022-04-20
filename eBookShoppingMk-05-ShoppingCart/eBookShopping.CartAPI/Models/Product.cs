@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace eBookShopping.CartAPI.Models
 {
     [Table("product")]
-    public class Product : BaseEntity
+    public class Product 
     {
 
         [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
