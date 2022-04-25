@@ -4,7 +4,7 @@ using eBookShopping.IdentityServer.Configuration;
 using eBookShopping.IdentityServer.Initializer;
 using eBookShopping.IdentityServer.Model;
 using eBookShopping.IdentityServer.Model.Context;
-
+using eBookShopping.IdentityServer.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -53,7 +53,7 @@ namespace GeekShopping.IdentityServer
                     .AddAspNetIdentity<ApplicationUser>();
 
             services.AddScoped<IDbInitializer, DbInitializer>();
-            //services.AddScoped<IProfileService, ProfileService>();
+            services.AddScoped<IProfileService, ProfileService>();
 
             builder.AddDeveloperSigningCredential();
 

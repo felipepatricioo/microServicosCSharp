@@ -63,6 +63,7 @@ C:\Users\estagiario\Desktop\treinamento-six\microServicos\microServicosCSharp\eB
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\microServicosCSharp\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\appsettings.json
+C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-9468FE77DF1A4B67FD0EDDDF196D24FF.json
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\eBookShopping.IdentityServer.staticwebassets.runtime.json
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\eBookShopping.IdentityServer.exe
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\eBookShopping.IdentityServer.deps.json
@@ -124,4 +125,3 @@ C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServi
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\obj\Debug\net6.0\eBookShopping.IdentityServer.pdb
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\obj\Debug\net6.0\eBookShopping.IdentityServer.genruntimeconfig.cache
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\obj\Debug\net6.0\ref\eBookShopping.IdentityServer.dll
-C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-9468FE77DF1A4B67FD0EDDDF196D24FF.json
