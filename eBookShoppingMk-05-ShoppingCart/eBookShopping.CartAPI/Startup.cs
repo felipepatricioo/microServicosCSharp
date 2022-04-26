@@ -1,6 +1,7 @@
 using AutoMapper;
 using eBookShopping.CartAPI.Config;
 using eBookShopping.CartAPI.Models.Context;
+using eBookShopping.CartAPI.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -42,7 +43,7 @@ namespace eBookShopping.CartAPI
             services.AddSingleton(mapper);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            //services.AddScoped<ICartRepository, CartRepository>();
+            services.AddScoped<ICartRepository, CartRepository>();
 
             services.AddControllers();
 
@@ -61,13 +62,13 @@ namespace eBookShopping.CartAPI
                 options.AddPolicy("ApiScope", policy =>
                 {
                     policy.RequireAuthenticatedUser();
-                    policy.RequireClaim("scope", "geek_shopping");
+                    policy.RequireClaim("scope", "ebook_shopping");
                 });
             });
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "GeekShopping.CartAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "eBookShopping.CartAPI", Version = "v1" });
                 c.EnableAnnotations();
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {

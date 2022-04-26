@@ -9,10 +9,11 @@ namespace eBookShopping.CartAPI.Models
         public long CartHeaderId { get; set; }
 
         [ForeignKey("CartHeaderId")]
-        public CartHeader CartHeader { get; set; }
+        public virtual CartHeader CartHeader { get; set; }
         public long ProductId { get; set; }
+
         [ForeignKey("ProductId")]
-        public CartHeader Product { get; set; }
+        public virtual Product Product { get; set; }
 
         [Column("count")]
         public int Count { get; set; }
