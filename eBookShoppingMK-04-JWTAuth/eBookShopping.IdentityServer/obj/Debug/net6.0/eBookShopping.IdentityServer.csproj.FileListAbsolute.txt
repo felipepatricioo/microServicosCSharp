@@ -189,3 +189,4 @@ C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSh
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\obj\Debug\net6.0\eBookShopping.IdentityServer.pdb
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\obj\Debug\net6.0\eBookShopping.IdentityServer.genruntimeconfig.cache
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\obj\Debug\net6.0\ref\eBookShopping.IdentityServer.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMK-04-JWTAuth\eBookShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-63895654F211E4DBA99D01AFB1DDE02C.json
