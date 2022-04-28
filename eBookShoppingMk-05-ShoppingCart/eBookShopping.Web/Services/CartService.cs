@@ -11,7 +11,7 @@ namespace eBookShopping.Web.Services
     public class CartService : ICartService
     {
         private readonly HttpClient _client;
-        public const string BasePath = "api/v1/cart";
+        public const string BasePath = "https://localhost:44565/api/v1/Cart";
 
         public CartService(HttpClient client)
         {
@@ -28,10 +28,15 @@ namespace eBookShopping.Web.Services
         public async Task<CartViewModel> AddItemToCart(CartViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.PostAsJson($"{BasePath}/add-cart", model);
+            var response = await _client.PostAsJson($"{BasePath}/add-cart/", model);
             if (response.IsSuccessStatusCode)
+            {
                 return await response.ReadContentAs<CartViewModel>();
-            else throw new Exception("Something went wrong when calling API");
+            }
+            else
+            {
+                throw new Exception("Something went wrong when calling API");
+            }
         }
 
         public async Task<CartViewModel> UpdateCart(CartViewModel model, string token)

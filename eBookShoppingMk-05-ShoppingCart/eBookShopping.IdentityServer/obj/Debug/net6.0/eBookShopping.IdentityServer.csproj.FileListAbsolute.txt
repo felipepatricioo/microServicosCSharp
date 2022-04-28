@@ -319,3 +319,5 @@ C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServi
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.IdentityServer\obj\Debug\net6.0\eBookShopping.IdentityServer.pdb
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.IdentityServer\obj\Debug\net6.0\eBookShopping.IdentityServer.genruntimeconfig.cache
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.IdentityServer\obj\Debug\net6.0\ref\eBookShopping.IdentityServer.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-5E35CA1DB78BB832F72A1976C3368328.json
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-89A337E35853A18F78FF6567C34AE88E.json

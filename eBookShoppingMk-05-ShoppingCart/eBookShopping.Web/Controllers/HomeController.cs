@@ -34,10 +34,10 @@ namespace eBookShopping.Web.Controllers
         }
 
         [Authorize]
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(int Id)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
-            var model = await _productService.FindProductById(id, token);
+            var model = await _productService.FindProductById(Id, token);
             return View(model);
         }
 
@@ -52,7 +52,8 @@ namespace eBookShopping.Web.Controllers
             {
                 CartHeader = new CartHeaderViewModel
                 {
-                    UserId = User.Claims.Where(u => u.Type == "sub")?.FirstOrDefault()?.Value
+                    UserId = User.Claims.Where(u => u.Type == "sub")?.FirstOrDefault()?.Value,
+                    CouponCode = ""
                 }
             };
 

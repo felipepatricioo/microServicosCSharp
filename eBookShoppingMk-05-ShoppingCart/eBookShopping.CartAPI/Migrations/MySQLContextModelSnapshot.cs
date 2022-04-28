@@ -52,7 +52,6 @@ namespace eBookShopping.CartAPI.Migrations
                         .HasColumnName("id");
 
                     b.Property<string>("CouponCode")
-                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("coupon_code");
 
@@ -113,7 +112,7 @@ namespace eBookShopping.CartAPI.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("eBookShopping.CartAPI.Models.CartHeader", "Product")
+                    b.HasOne("eBookShopping.CartAPI.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
