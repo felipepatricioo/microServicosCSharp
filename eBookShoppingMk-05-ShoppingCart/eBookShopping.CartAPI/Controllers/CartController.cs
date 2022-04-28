@@ -9,6 +9,8 @@ namespace eBookShopping.CartAPI.Controllers
     public class CartController : ControllerBase
     {
         private ICartRepository _repository;
+        private readonly IProductService _productService;
+
 
         public CartController(ICartRepository repository)
         {
@@ -45,6 +47,22 @@ namespace eBookShopping.CartAPI.Controllers
         {
             var status = await _repository.RemoveFromCart(id);
             if (!status) return BadRequest();
+            return Ok(status);
+        }
+
+        [HttpPost("apply-coupon")]
+        public async Task<ActionResult<CartVO>> ApplyCoupon(CartVO vo)
+        {
+            var status = await _repository.ApplyCoupon(vo.CartHeader.UserId, vo.CartHeader.CouponCode);
+            if (!status) return NotFound();
+            return Ok(status);
+        }        
+        
+        [HttpPost("remove-coupon/{}")]
+        public async Task<ActionResult<CartVO>> RemoveCoupon(string userId)
+        {
+            var status = await _repository.RemoveCoupon(userId);
+            if (!status) return NotFound();
             return Ok(status);
         }
     }
