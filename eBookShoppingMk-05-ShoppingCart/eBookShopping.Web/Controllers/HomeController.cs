@@ -47,7 +47,7 @@ namespace eBookShopping.Web.Controllers
         {
             var token = await HttpContext.GetTokenAsync("access_token");
 
-            CartViewModel cart = new()
+            var cart = new CartViewModel
             {
                 CartHeader = new CartHeaderViewModel
                 {

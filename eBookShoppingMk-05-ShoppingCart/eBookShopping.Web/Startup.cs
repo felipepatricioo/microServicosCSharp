@@ -26,19 +26,16 @@ namespace eBookShopping.Web
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddHttpClient<IProductService, ProductService>(c => 
-            c.BaseAddress = new Uri(Configuration["ServiceUrls:ProductAPI"]));
-
+            services.AddHttpClient<IProductService, ProductService>(c =>
+                    c.BaseAddress = new Uri(Configuration["ServiceUrls:ProductAPI"])
+                );
             services.AddHttpClient<ICartService, CartService>(c =>
-                  c.BaseAddress = new Uri(Configuration["ServiceUrls:CartAPI"])
-              );
-
-            //services.AddHttpClient<ICouponService, CartService>(c =>
-            //      c.BaseAddress = new Uri(Configuration["ServiceUrls:CouponAPI"])
-            //  );
-
+                    c.BaseAddress = new Uri(Configuration["ServiceUrls:CartAPI"])
+                );
+            services.AddHttpClient<ICouponService, CouponService>(c =>
+                    c.BaseAddress = new Uri(Configuration["ServiceUrls:CouponAPI"])
+                );
             services.AddControllersWithViews();
-
             services.AddAuthentication(options =>
             {
                 options.DefaultScheme = "Cookies";

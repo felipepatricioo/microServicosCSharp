@@ -65,3 +65,6 @@ C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServi
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.CouponAPI\obj\Debug\net6.0\eBookShopping.CouponAPI.pdb
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.CouponAPI\obj\Debug\net6.0\eBookShopping.CouponAPI.genruntimeconfig.cache
 C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.CouponAPI\obj\Debug\net6.0\ref\eBookShopping.CouponAPI.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CouponAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CouponAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CouponAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
