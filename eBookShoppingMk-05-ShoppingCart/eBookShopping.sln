@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.IdentityServe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.CartAPI", "eBookShopping.CartAPI\eBookShopping.CartAPI.csproj", "{0B34C589-3C4D-4966-B6B1-822A3A75AC71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookShopping.CouponAPI", "eBookShopping.CouponAPI\eBookShopping.CouponAPI.csproj", "{9B4661CD-B0A4-4194-860D-B8ECB8A4AC14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.CouponAPI", "eBookShopping.CouponAPI\eBookShopping.CouponAPI.csproj", "{9B4661CD-B0A4-4194-860D-B8ECB8A4AC14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

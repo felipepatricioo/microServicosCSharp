@@ -601,3 +601,10 @@ C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSh
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\obj\Debug\net6.0\eBookShopping.ProductAPI.pdb
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\obj\Debug\net6.0\eBookShopping.ProductAPI.genruntimeconfig.cache
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\obj\Debug\net6.0\ref\eBookShopping.ProductAPI.dll
+C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\bin\Debug\net6.0\BoDi.dll
+C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\bin\Debug\net6.0\Gherkin.dll
+C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+C:\Users\Felipe\Desktop\coding\projetos-paralelos\aprendendoCsharpNET\microServices\eBookShoppingMk-05-ShoppingCart\eBookShopping.ProductAPI\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
