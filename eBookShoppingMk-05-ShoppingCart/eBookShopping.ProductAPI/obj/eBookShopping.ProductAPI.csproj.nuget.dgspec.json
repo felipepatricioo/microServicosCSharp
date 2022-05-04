@@ -77,10 +77,6 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
-            "SpecFlow": {
-              "target": "Package",
-              "version": "[3.9.69, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.0, )"

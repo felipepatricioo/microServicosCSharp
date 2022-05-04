@@ -40,7 +40,6 @@ namespace eBookShopping.ProductAPI.Controllers
             return Ok(product);
         }
 
-        [Authorize]
         [HttpPost]
         public async Task<ActionResult<ProductVO>> Create([FromBody]ProductVO vo)
         {
