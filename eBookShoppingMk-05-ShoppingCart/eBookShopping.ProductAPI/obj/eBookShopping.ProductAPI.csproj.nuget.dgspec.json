@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj": {}
+    "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj": {
+    "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj",
+        "projectUniqueName": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj",
         "projectName": "eBookShopping.ProductAPI",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\obj\\",
+        "projectPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\eBookShopping.ProductAPI.csproj",
+        "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.ProductAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\estagiario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -76,10 +77,6 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
-            "SpecFlow": {
-              "target": "Package",
-              "version": "[3.9.69, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.0, )"
@@ -111,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
