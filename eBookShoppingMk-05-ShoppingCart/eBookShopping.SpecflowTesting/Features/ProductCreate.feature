@@ -1,8 +1,18 @@
 ﻿Feature: Product testing
 
-Scenario: Create a product successfully 
-When I create a product with the following details 
-| Name          | Price | Description               | CategoryName | ImageUrl                                                         |
-| Sun and Steel | 59.90 | An Essay By Yukio Mishima | Essay        | https://images-na.ssl-images-amazon.com/images/I/61yPkAMrCDL.jpg |
-Then The product is created successfully
 
+Scenario: Get all the products in the database successfully
+	Given I have a web client
+	When I want to get the web page 'https://localhost:44395/api/v1/Product'
+	Then the result should have status code '200'
+
+Scenario: Create a product successfully
+	When I create a product with the following details
+		| id | name                                        | price | description               | categoryName | imageUrl                                                         |
+		| 10 | The Sailor who fell from grace with the sea | 59.90 | An Novel By Yukio Mishima | Novel        | https://images-na.ssl-images-amazon.com/images/I/91VHGE-qsxL.jpg |
+	Then the result should have status code '200'
+
+Scenario: Delete a product successfully 
+When I give the api and id '10'
+And I have the authentication token 
+Then The product is deleted and the result should have status code 

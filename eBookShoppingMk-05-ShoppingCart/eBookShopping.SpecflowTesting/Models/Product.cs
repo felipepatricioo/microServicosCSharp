@@ -8,10 +8,11 @@ namespace eBookShopping.SpecflowTesting.Models
 {
     internal class Product
     {
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-        public string Description { get; set; }
-        public string CategoryName { get; set; }
-        public string ImageUrl { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public decimal price { get; set; }
+        public string description { get; set; }
+        public string categoryName { get; set; }
+        public string imageUrl { get; set; }
     }
 }
