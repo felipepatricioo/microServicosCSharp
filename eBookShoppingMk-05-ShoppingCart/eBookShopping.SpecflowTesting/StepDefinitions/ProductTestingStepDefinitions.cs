@@ -45,7 +45,7 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         public async Task WhenICreateAProductWithTheFollowingDetails(Table product)
         {
             _httpClient = new HttpClient();
-            var transactionData = product.CreateInstance<Product>();
+            var transactionData = product.CreateInstance<ProductModel>();
             var productJson = JsonConvert.SerializeObject(transactionData);
             _httpResponseMessage = await _httpClient.PostAsync(BASE_URL, 
                 new StringContent(

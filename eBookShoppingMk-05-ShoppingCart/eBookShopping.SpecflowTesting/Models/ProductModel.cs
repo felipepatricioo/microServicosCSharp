@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eBookShopping.SpecflowTesting.Models
 {
-    internal class Product
+    internal class ProductModel
     {
         public int id { get; set; }
         public string name { get; set; }
