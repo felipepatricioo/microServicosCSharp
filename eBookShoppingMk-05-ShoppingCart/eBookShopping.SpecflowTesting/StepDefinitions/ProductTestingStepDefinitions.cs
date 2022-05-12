@@ -4,6 +4,7 @@ using TechTalk.SpecFlow.Assist;
 using System.Net.Http.Json;
 using System.Net;
 using eBookShopping.SpecflowTesting.Models;
+using System.Text.Json;
 
 namespace eBookShopping.SpecflowTesting.StepDefinitions
 {
@@ -31,11 +32,29 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         public async Task ThenTheProductIsCreatedSuccessfully()
         {
             var product = _scenarioContext.Get<Product>("Product");
-            JsonContent content = JsonContent.Create(product);
-            var response = await _httpClient.PostAsync(BASE_URL, content);
-
+            var response = await _httpClient.PostAsJsonAsync(BASE_URL, product);
             response.StatusCode.Should().Be(HttpStatusCode.Created);
 
         }
+
+        [When(@"the API is called")]
+        public async Task WhenTheAPIIsCalled()
+        {
+            var response = await _httpClient.GetAsync(BASE_URL);
+            var dataAsString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+
+            _scenarioContext["Products"] = JsonSerializer.Deserialize<Product>(dataAsString,
+                new JsonSerializerOptions
+                { PropertyNameCaseInsensitive = true });
+        }
+
+        [Then(@"the response should be all the products in the database")]
+        public void ThenTheResponseShouldBeAllTheProductsInTheDatabase()
+        {
+            var teste = _scenarioContext["Products"];
+            Console.WriteLine(teste);
+        }
+
+
     }
 }
