@@ -71,7 +71,7 @@ namespace eBookShopping.Web.Controllers
             return NotFound();
         }
 
-        [HttpPost]
+        [HttpDelete]
         [Authorize(Roles = Role.Admin)]
         public async Task<IActionResult> ProductDelete(ProductViewModel model)
         {
