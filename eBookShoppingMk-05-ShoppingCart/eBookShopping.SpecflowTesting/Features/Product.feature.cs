@@ -28,7 +28,7 @@ namespace eBookShopping.SpecflowTesting.Features
         
         private static string[] featureTags = ((string[])(null));
         
-#line 1 "ProductCreate.feature"
+#line 1 "Product.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]

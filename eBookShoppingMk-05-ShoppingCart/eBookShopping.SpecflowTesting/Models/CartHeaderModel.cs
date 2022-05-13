@@ -8,5 +8,8 @@ namespace eBookShopping.SpecflowTesting.Models
 {
     internal class CartHeaderModel
     {
+        public long Id { get; set; }
+        public string UserId { get; set; }
+        public string CouponCode { get; set; }
     }
 }

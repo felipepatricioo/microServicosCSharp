@@ -85,6 +85,23 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         }
 
 
+        [When(@"I give the api and id '([^']*)'")]
+        public void WhenIGiveTheApiAndId(string p0)
+        {
+            throw new PendingStepException();
+        }
+
+        [When(@"I have the authentication token")]
+        public void WhenIHaveTheAuthenticationToken()
+        {
+            throw new PendingStepException();
+        }
+
+        [Then(@"The product is deleted and the result should have status code")]
+        public void ThenTheProductIsDeletedAndTheResultShouldHaveStatusCode()
+        {
+            throw new PendingStepException();
+        }
 
 
 
