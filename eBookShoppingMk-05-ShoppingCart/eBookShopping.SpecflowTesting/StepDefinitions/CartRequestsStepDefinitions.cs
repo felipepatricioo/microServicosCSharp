@@ -17,6 +17,12 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         private string IDSERVER_URL = "https://localhost:4435";
         private readonly ScenarioContext _scenarioContext;
 
+<<<<<<< HEAD
+        [Given(@"that the cart s user id is '([^']*)'")]
+        public void GivenThatTheCartSUserIdIs(string userId)
+        {
+            _scenarioContext["userId"] = userId;
+=======
         [Given(@"That the user is authenticated")]
         public async Task GivenThatTheUserIsAuthenticated()
         {
@@ -36,16 +42,21 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
                     "application/json")
                 );
             Console.WriteLine(loginJson);
+>>>>>>> f29831dd0e534753193b1f45b95d111f8f6691c0
         }
 
 
         [When(@"the api is called")]
         public async Task WhenTheApiIsCalled()
         {
+            var userId = _scenarioContext["userId"];
             _httpClient = new HttpClient();
 
+<<<<<<< HEAD
+=======
             var userId = _scenarioContext["UserId"];
 
+>>>>>>> f29831dd0e534753193b1f45b95d111f8f6691c0
             var cartDetail = new List<CartDetailModel>();
             cartDetail.Add(new CartDetailModel
             {
@@ -61,8 +72,13 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
                 Product = new ProductModel()
                 {
                     id = 11,
-                    name = "Posthumous Memoirs of Brás Cubas",
+<<<<<<< HEAD
+                    name = "Posthumous Memoirs of BrÃ¡s Cubas",
+                    price = new decimal(9.900000000000000000000000000000),
+=======
+                    name = "Posthumous Memoirs of Brï¿½s Cubas",
                     price = new decimal(9.90),
+>>>>>>> f29831dd0e534753193b1f45b95d111f8f6691c0
                     description = "A novel by Machado de Assis",
                     categoryName = "Novel",
                     imageUrl = "https://images-na.ssl-images-amazon.com/images/I/71pZaZtyN2L.jpg"
@@ -82,7 +98,11 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
             };
 
             var cartJson = JsonConvert.SerializeObject(cart);
+<<<<<<< HEAD
+            _httpResponseMessage = await _httpClient.PostAsync(BASE_URL + $"find-cart/{userId}",
+=======
             _httpResponseMessage = await _httpClient.PostAsync(BASE_URL + "/add-cart",
+>>>>>>> f29831dd0e534753193b1f45b95d111f8f6691c0
                 new StringContent(
                     cartJson,
                     Encoding.UTF8,
@@ -91,9 +111,13 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         }
 
         [Then(@"the status cod hould be '([^']*)'")]
-        public void ThenTheStatusCodHouldBe(string oK)
+        public void ThenTheStatusCodHouldBe(int expectedStatusCode)
         {
+<<<<<<< HEAD
+            _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)expectedStatusCode);
+=======
             _httpResponseMessage.StatusCode.Should().Be(HttpStatusCode.Created);
+>>>>>>> f29831dd0e534753193b1f45b95d111f8f6691c0
         }
     }
 }
