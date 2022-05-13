@@ -12,7 +12,3 @@ Scenario: Create a product successfully
 		| 10 | The Sailor who fell from grace with the sea | 59.90 | An Novel By Yukio Mishima | Novel        | https://images-na.ssl-images-amazon.com/images/I/91VHGE-qsxL.jpg |
 	Then the result should have status code '200'
 
-Scenario: Delete a product successfully 
-When I give the api and id '10'
-And I have the authentication token 
-Then The product is deleted and the result should have status code 

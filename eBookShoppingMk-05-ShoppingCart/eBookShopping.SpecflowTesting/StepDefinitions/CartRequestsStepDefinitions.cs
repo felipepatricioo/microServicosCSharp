@@ -14,20 +14,37 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         private HttpClient _httpClient;
         private HttpResponseMessage _httpResponseMessage;
         private string BASE_URL = "https://localhost:44565/api/v1/Cart";
+        private string IDSERVER_URL = "https://localhost:4435";
         private readonly ScenarioContext _scenarioContext;
 
-        [Given(@"that the cart s user id is '([^']*)'")]
-        public void GivenThatTheCartSUserIdIs(string userId)
+        [Given(@"That the user is authenticated")]
+        public async Task GivenThatTheUserIsAuthenticated()
         {
-            _scenarioContext["userId"] = userId;
+            _httpClient = new HttpClient();
+            
+            LoginModel login = new LoginModel()
+            {
+                Username = "felipe-admin",
+                Password = "Felipe123$"
+            };
+
+            var loginJson = JsonConvert.SerializeObject(login);
+            _scenarioContext["token"] =  await _httpClient.PostAsync(IDSERVER_URL + "/add-cart",
+                new StringContent(
+                    loginJson,
+                    Encoding.UTF8,
+                    "application/json")
+                );
+            Console.WriteLine(loginJson);
         }
 
 
         [When(@"the api is called")]
         public async Task WhenTheApiIsCalled()
         {
-            var userId = _scenarioContext["userId"];
             _httpClient = new HttpClient();
+
+            var userId = _scenarioContext["UserId"];
 
             var cartDetail = new List<CartDetailModel>();
             cartDetail.Add(new CartDetailModel
@@ -44,8 +61,8 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
                 Product = new ProductModel()
                 {
                     id = 11,
-                    name = "Posthumous Memoirs of Br√°s Cubas",
-                    price = new decimal(9.900000000000000000000000000000),
+                    name = "Posthumous Memoirs of Br·s Cubas",
+                    price = new decimal(9.90),
                     description = "A novel by Machado de Assis",
                     categoryName = "Novel",
                     imageUrl = "https://images-na.ssl-images-amazon.com/images/I/71pZaZtyN2L.jpg"
@@ -65,7 +82,7 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
             };
 
             var cartJson = JsonConvert.SerializeObject(cart);
-            _httpResponseMessage = await _httpClient.PostAsync(BASE_URL + $"find-cart/{userId}",
+            _httpResponseMessage = await _httpClient.PostAsync(BASE_URL + "/add-cart",
                 new StringContent(
                     cartJson,
                     Encoding.UTF8,
@@ -74,9 +91,9 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         }
 
         [Then(@"the status cod hould be '([^']*)'")]
-        public void ThenTheStatusCodHouldBe(int expectedStatusCode)
+        public void ThenTheStatusCodHouldBe(string oK)
         {
-            _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)expectedStatusCode);
+            _httpResponseMessage.StatusCode.Should().Be(HttpStatusCode.Created);
         }
     }
 }

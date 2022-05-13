@@ -3,12 +3,10 @@ using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 using System.Net;
 using eBookShopping.SpecflowTesting.Models;
-using System.Text.Json;
-using Newtonsoft.Json;
-using System.Net.Http.Headers;
-using System.Net.Http.Json;
 using Newtonsoft.Json;
 using System.Text;
+using eBookShopping.ProductAPI.Models;
+using System.Net.Http.Json;
 
 namespace eBookShopping.SpecflowTesting.StepDefinitions
 {
@@ -79,32 +77,9 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
 
 
         [Then(@"The product is created successfully")]
-        public void ThenTheProductIsCreatedSuccessfully(int expectedStatusCode)
+        public async Task ThenTheProductIsCreatedSuccessfullyAsync(int expectedStatusCode)
         {
-            _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)expectedStatusCode);
+            _httpResponseMessage.StatusCode.Should().Be(HttpStatusCode.Created);
         }
-
-
-        [When(@"I give the api and id '([^']*)'")]
-        public void WhenIGiveTheApiAndId(string p0)
-        {
-            throw new PendingStepException();
-        }
-
-        [When(@"I have the authentication token")]
-        public void WhenIHaveTheAuthenticationToken()
-        {
-            throw new PendingStepException();
-        }
-
-        [Then(@"The product is deleted and the result should have status code")]
-        public void ThenTheProductIsDeletedAndTheResultShouldHaveStatusCode()
-        {
-            throw new PendingStepException();
-        }
-
-
-
-
     }
 }
