@@ -3,6 +3,10 @@ using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 using System.Net;
 using eBookShopping.SpecflowTesting.Models;
+using Newtonsoft.Json;
+using System.Text;
+using eBookShopping.ProductAPI.Models;
+using System.Net.Http.Json;
 
 namespace eBookShopping.SpecflowTesting.StepDefinitions
 {
@@ -39,7 +43,7 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         public async Task WhenICreateAProductWithTheFollowingDetails(Table product)
         {
             _httpClient = new HttpClient();
-            var transactionData = product.CreateInstance<Product>();
+            var transactionData = product.CreateInstance<ProductModel>();
             var productJson = JsonConvert.SerializeObject(transactionData);
             _httpResponseMessage = await _httpClient.PostAsync(BASE_URL, 
                 new StringContent(
@@ -73,14 +77,9 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
 
 
         [Then(@"The product is created successfully")]
-        public void ThenTheProductIsCreatedSuccessfully(int expectedStatusCode)
+        public async Task ThenTheProductIsCreatedSuccessfullyAsync(int expectedStatusCode)
         {
-            var product = _scenarioContext.Get<Product>("Product");
-            JsonContent content = JsonContent.Create(product);
-            var response = await _httpClient.PostAsync(BASE_URL, content);
-
-            response.StatusCode.Should().Be(HttpStatusCode.Created);
-
+            _httpResponseMessage.StatusCode.Should().Be(HttpStatusCode.Created);
         }
     }
 }

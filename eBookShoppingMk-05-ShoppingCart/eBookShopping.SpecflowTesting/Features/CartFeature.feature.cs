@@ -91,7 +91,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 5
- testRunner.Given("The user id is \'75cc6626-dc69-4e81-95e4-9b0c0817160a\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("That the user is authenticated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 6
  testRunner.When("I call the cart API", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");

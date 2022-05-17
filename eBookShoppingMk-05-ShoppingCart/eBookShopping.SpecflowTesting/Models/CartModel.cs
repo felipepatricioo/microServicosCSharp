@@ -8,5 +8,8 @@ namespace eBookShopping.SpecflowTesting.Models
 {
     internal class CartModel
     {
+        public CartHeaderModel CartHeader { get; set; }
+
+        public IEnumerable<CartDetailModel> CartDetails { get; set; }
     }
 }
