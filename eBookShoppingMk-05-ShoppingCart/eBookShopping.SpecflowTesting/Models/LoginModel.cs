@@ -13,5 +13,8 @@ namespace eBookShopping.SpecflowTesting.Models
         public string Password { get; set; }
         public bool RememberLogin { get; set; }
         public string ReturnUrl { get; set; }
+        public string client_id { get; set; }   
+        public string client_secret { get; set; }
+        public string grant_type { get; set; }
     }
 }
