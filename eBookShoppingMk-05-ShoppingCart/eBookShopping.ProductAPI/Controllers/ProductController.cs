@@ -41,6 +41,7 @@ namespace eBookShopping.ProductAPI.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<ProductVO>> Create([FromBody]ProductVO vo)
         {
             if (vo == null) return BadRequest();

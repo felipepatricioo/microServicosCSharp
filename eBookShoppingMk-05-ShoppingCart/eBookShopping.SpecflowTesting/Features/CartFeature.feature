@@ -1,7 +1,9 @@
-﻿Feature: Test all the endpoint in the cart API
+﻿Feature: CartFeature
 
+A short summary of the feature
 
-Scenario: Get the shopping cart of an specific user
-	Given That the user is authenticated 
-	When I call the cart API 
+@tag1
+Scenario: Cart api tests 
+	Given That the user is authenticated
+	When the api is requested
 	Then the status code should be '200'
