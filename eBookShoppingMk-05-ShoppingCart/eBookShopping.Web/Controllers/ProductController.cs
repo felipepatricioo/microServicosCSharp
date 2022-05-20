@@ -63,6 +63,7 @@ namespace eBookShopping.Web.Controllers
             return View(model);
         }
 
+        [Authorize]
         public async Task<IActionResult> ProductDelete(int id)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
@@ -71,7 +72,7 @@ namespace eBookShopping.Web.Controllers
             return NotFound();
         }
 
-        [HttpDelete]
+        [HttpPost]
         [Authorize(Roles = Role.Admin)]
         public async Task<IActionResult> ProductDelete(ProductViewModel model)
         {

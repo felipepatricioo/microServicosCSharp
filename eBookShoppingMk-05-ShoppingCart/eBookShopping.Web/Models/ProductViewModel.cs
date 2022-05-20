@@ -24,7 +24,10 @@ namespace eBookShopping.Web.Models
         
         public string SubstringDescription()
         {
-            if(Description.Length < 325) return Description;
+            if (Description.Length < 325)
+            {
+                return Description;
+            } 
 
             return $"{Description.Substring(0, 352)}...";
         }
