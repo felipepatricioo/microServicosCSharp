@@ -34,7 +34,7 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
             var request = await _httpClient.PostAsync(IDSERVER_URL + "/connect/token", content);
             var requestContent = await request.Content.ReadAsStringAsync();
 
-            ResponseModel result = JsonConvert.DeserializeObject<ResponseModel>(requestContent);
+            var result = JsonConvert.DeserializeObject<ResponseModel>(requestContent);
 
             return result;
         }
@@ -62,29 +62,35 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         {
             _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)expectedStatusCode);
         }
-    
+
+        [Given(@"The user is authenticated")]
+        public async Task GivenTheUserIsAuthenticated()
+        {
+            ResponseModel response = await GetToken();
+            _scenarioContext["token"] = response.access_token;
+
+        }
 
         [When(@"I create a product with the following details")]
         public async Task WhenICreateAProductWithTheFollowingDetails(Table product)
         {
             _httpClient = new HttpClient();
 
-            ResponseModel token = await GetToken();
-            string tokenString = token.access_token.ToString();
-
+            var token = (string)_scenarioContext["token"];
 
             Console.WriteLine(token);
 
-            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokenString);
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            ProductModel transactionData = product.CreateInstance<ProductModel>();
-            string productJson = JsonConvert.SerializeObject(transactionData);
+            var transactionData = product.CreateInstance<ProductModel>();
+            var productJson = JsonConvert.SerializeObject(transactionData);
             _httpResponseMessage = await _httpClient.PostAsync(BASE_URL, 
                 new StringContent(
                     productJson, 
                     Encoding.UTF8, 
                     "application/json")
                 );
+
                     //The HttpClient type is a newer implementation than the WebClient and HttpWebRequest. Both the WebClient and WebRequest have been marked as obsolete. [1]
 
                     //You can simply use the following lines.
@@ -105,13 +111,14 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
                     //Since dotnet core 3.1 you can use the JsonSerializer from System.Text.Json to create your json string.
 
                     //string myJson = JsonSerializer.Serialize(credentialsObj);
+
         }
 
 
         [Then(@"The product is created successfully")]
         public async Task ThenTheProductIsCreatedSuccessfullyAsync(int expectedStatusCode)
         {
-            _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)expectedStatusCode);
+            _httpResponseMessage.StatusCode.Should().Be(HttpStatusCode.Created);
         }
 
 
@@ -120,13 +127,13 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         {
             _httpClient = new HttpClient();
 
-
-            ResponseModel token = await GetToken();
-            string tokenString = token.access_token.ToString();
+            ResponseModel response = await GetToken();
+            _scenarioContext["token"] = response.access_token;
+            var token = (string)_scenarioContext["token"];
 
             Console.WriteLine(token);
 
-            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokenString);
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             var transactionData = product.CreateInstance<ProductModel>();
             var productJson = JsonConvert.SerializeObject(transactionData);
@@ -139,31 +146,28 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         }
 
 
-        [Then(@"the product is updated successfully")]
-        public void ThenTheProductIsUpdatedSuccessfully()
+        [Given(@"That the user is authenticated")]
+        public async Task GivenThatTheUserIsAuthenticated()
         {
-            _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)200);
+            ResponseModel response = await GetToken();
+            _scenarioContext["token"] = response.access_token;
         }
-
 
         [When(@"id delete the product with the id '([^']*)'")]
         public async Task WhenIdDeleteTheProductWithTheId(string productId)
         {
             _httpClient = new HttpClient();
+            var token = (string)_scenarioContext["token"];
 
-            ResponseModel token = await GetToken();
-            string tokenString = token.access_token.ToString();
-
-            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokenString);
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             _httpResponseMessage = await _httpClient.DeleteAsync(BASE_URL + $"/{productId}");
         }
 
-
-        [Then(@"the product is deleted successfully")]
-        public void ThenTheProductIsDeletedSuccessfully()
+        [Then(@"the result should have status '([^']*)'")]
+        public void ThenTheResultShouldHaveStatus(int expectedStatus)
         {
-            _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)200);
+            _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)expectedStatus);
         }
 
     }

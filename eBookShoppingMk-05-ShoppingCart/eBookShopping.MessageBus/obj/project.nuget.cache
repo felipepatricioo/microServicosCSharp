@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bWk4qOo24D43dd3QiXeCJzThjhT1gyKvgIR/QPUOpAL/aa4qDzs2P0bNoC6byF1j3+seKnWp5o0PnPr4DoABZw==",
+  "dgSpecHash": "1Qqgaj1DwbCPimScuMfSl0MSinTJEbMi3q3b4Mqyj9AxXuaX4mUETXKZR8SK57ZrkLZnToC/rwd85dXxlppN6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj",
+  "projectFilePath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
