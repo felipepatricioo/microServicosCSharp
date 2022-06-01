@@ -1,0 +1,12 @@
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\bin\Debug\net6.0\eBookShopping.MessageBus.deps.json
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\bin\Debug\net6.0\eBookShopping.MessageBus.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\bin\Debug\net6.0\eBookShopping.MessageBus.pdb
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\eBookShopping.MessageBus.csproj.AssemblyReference.cache
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\eBookShopping.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\eBookShopping.MessageBus.AssemblyInfoInputs.cache
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\eBookShopping.MessageBus.AssemblyInfo.cs
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\eBookShopping.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\eBookShopping.MessageBus.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\refint\eBookShopping.MessageBus.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\eBookShopping.MessageBus.pdb
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.MessageBus\obj\Debug\net6.0\ref\eBookShopping.MessageBus.dll

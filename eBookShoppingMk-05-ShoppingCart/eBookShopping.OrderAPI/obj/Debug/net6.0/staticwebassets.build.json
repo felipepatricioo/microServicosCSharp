@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "aW7G/rJP/8Vmz7rkgdIv4DYc0IJUSVzLgwDj96xDwXk=",
+  "Source": "eBookShopping.OrderAPI",
+  "BasePath": "_content/eBookShopping.OrderAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.CartAPI\\eBookShopping.CartAPI.csproj",
+      "Version": 2,
+      "Source": "eBookShopping.CartAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

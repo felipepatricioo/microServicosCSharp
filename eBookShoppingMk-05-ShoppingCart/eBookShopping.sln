@@ -14,13 +14,28 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.IdentityServer", "eBookShopping.IdentityServer\eBookShopping.IdentityServer.csproj", "{674CB82C-317C-4FBA-8A45-56401D7AC74B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.CartAPI", "eBookShopping.CartAPI\eBookShopping.CartAPI.csproj", "{0B34C589-3C4D-4966-B6B1-822A3A75AC71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AECD8E8A-9100-4290-8C1C-555D450C2281} = {AECD8E8A-9100-4290-8C1C-555D450C2281}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.CouponAPI", "eBookShopping.CouponAPI\eBookShopping.CouponAPI.csproj", "{9B4661CD-B0A4-4194-860D-B8ECB8A4AC14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookShopping.SpecflowTesting", "eBookShopping.SpecflowTesting\eBookShopping.SpecflowTesting.csproj", "{62CD5C5F-7751-4C28-8566-169BFC94A475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.SpecflowTesting", "eBookShopping.SpecflowTesting\eBookShopping.SpecflowTesting.csproj", "{62CD5C5F-7751-4C28-8566-169BFC94A475}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8843BEA3-6659-4A27-A7EC-6C3AD2804FD9} = {8843BEA3-6659-4A27-A7EC-6C3AD2804FD9}
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{4A3BDEAF-9606-4EE6-AA17-8ED0ADA78BD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.MessageBus", "eBookShopping.MessageBus\eBookShopping.MessageBus.csproj", "{AECD8E8A-9100-4290-8C1C-555D450C2281}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBookShopping.OrderAPI", "eBookShopping.OrderAPI\eBookShopping.OrderAPI.csproj", "{6ED2405F-94EE-430F-B47A-82D94AE360A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{6675F50E-08AE-47AD-B2EB-E202724025D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookShopping.PaymentProcessor", "eBookShopping.PaymentProcessor\eBookShopping.PaymentProcessor.csproj", "{8590A057-71AF-493B-A14C-168008615D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookShopping.PaymentAPI", "eBookShopping.PaymentAPI\eBookShopping.PaymentAPI.csproj", "{4CA63893-261B-413B-A1BF-3AE3ACC2921D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +67,22 @@ Global
 		{62CD5C5F-7751-4C28-8566-169BFC94A475}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62CD5C5F-7751-4C28-8566-169BFC94A475}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62CD5C5F-7751-4C28-8566-169BFC94A475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECD8E8A-9100-4290-8C1C-555D450C2281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECD8E8A-9100-4290-8C1C-555D450C2281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECD8E8A-9100-4290-8C1C-555D450C2281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECD8E8A-9100-4290-8C1C-555D450C2281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED2405F-94EE-430F-B47A-82D94AE360A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED2405F-94EE-430F-B47A-82D94AE360A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED2405F-94EE-430F-B47A-82D94AE360A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED2405F-94EE-430F-B47A-82D94AE360A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8590A057-71AF-493B-A14C-168008615D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8590A057-71AF-493B-A14C-168008615D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8590A057-71AF-493B-A14C-168008615D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8590A057-71AF-493B-A14C-168008615D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA63893-261B-413B-A1BF-3AE3ACC2921D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA63893-261B-413B-A1BF-3AE3ACC2921D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA63893-261B-413B-A1BF-3AE3ACC2921D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA63893-261B-413B-A1BF-3AE3ACC2921D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +94,10 @@ Global
 		{0B34C589-3C4D-4966-B6B1-822A3A75AC71} = {D6495DDB-15A5-49D5-A382-1FD6D4A84709}
 		{9B4661CD-B0A4-4194-860D-B8ECB8A4AC14} = {D6495DDB-15A5-49D5-A382-1FD6D4A84709}
 		{62CD5C5F-7751-4C28-8566-169BFC94A475} = {D6495DDB-15A5-49D5-A382-1FD6D4A84709}
+		{AECD8E8A-9100-4290-8C1C-555D450C2281} = {4A3BDEAF-9606-4EE6-AA17-8ED0ADA78BD3}
+		{6ED2405F-94EE-430F-B47A-82D94AE360A5} = {D6495DDB-15A5-49D5-A382-1FD6D4A84709}
+		{8590A057-71AF-493B-A14C-168008615D99} = {6675F50E-08AE-47AD-B2EB-E202724025D2}
+		{4CA63893-261B-413B-A1BF-3AE3ACC2921D} = {D6495DDB-15A5-49D5-A382-1FD6D4A84709}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C923E59-3FEE-42D2-B932-0148E02D1D96}

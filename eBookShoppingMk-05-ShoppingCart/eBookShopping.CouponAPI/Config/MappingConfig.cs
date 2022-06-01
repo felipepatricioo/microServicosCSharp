@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using eBookShopping.CouponAPI.Data.ValueObjects;
+using eBookShopping.CartAPI.Data.ValueObjects;
 using eBookShopping.CouponAPI.Models;
 
 namespace eBookShopping.CouponAPI.Config

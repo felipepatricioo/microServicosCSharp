@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iWvIeIDgep/29G44DGoo+tInpbx1eDN8QWBjExOmTOaXjzpWNU/ebHs9hZEGnB92uPO50AF/qEzDOXpTAJbNNw==",
+  "dgSpecHash": "51v9csslXO+w+YyRbp8J2BOn6oDx33KCBwEmAdfrCn97Gtn2ka3fwNqpXZUkSHKd1woluK3lnpiG52Tnl1xR4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.CartAPI\\eBookShopping.CartAPI.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\estagiario\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.1\\pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
+    "C:\\Users\\estagiario\\.nuget\\packages\\rabbitmq.client\\6.3.0\\rabbitmq.client.6.3.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.0\\swashbuckle.aspnetcore.6.3.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.3.0\\swashbuckle.aspnetcore.annotations.6.3.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.0\\swashbuckle.aspnetcore.swagger.6.3.0.nupkg.sha512",
@@ -50,6 +51,7 @@
     "C:\\Users\\estagiario\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Users\\estagiario\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
@@ -58,6 +60,7 @@
     "C:\\Users\\estagiario\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
+    "C:\\Users\\estagiario\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
     "C:\\Users\\estagiario\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []

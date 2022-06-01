@@ -1,4 +1,4 @@
-using eBookShopping.CouponAPI.Data.ValueObjects;
+using eBookShopping.CartAPI.Data.ValueObjects;
 using eBookShopping.CouponAPI.Repository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
