@@ -1,4 +1,5 @@
-﻿using eBookShopping.CouponAPI.Data.ValueObjects;
+﻿
+using eBookShopping.CartAPI.Data.ValueObjects;
 
 namespace eBookShopping.CouponAPI.Repository
 {

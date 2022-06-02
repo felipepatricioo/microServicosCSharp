@@ -70,7 +70,7 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
                     categoryName = "Novel",
                     imageUrl = "https://images-na.ssl-images-amazon.com/images/I/71pZaZtyN2L.jpg"
                 },
-                Count = 16
+                Count = 69
             });
 
             var cart = new CartModel()

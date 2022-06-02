@@ -1,6 +1,7 @@
 using AutoMapper;
 using eBookShopping.CartAPI.Config;
 using eBookShopping.CartAPI.Models.Context;
+using eBookShopping.CartAPI.RabbitMQSender;
 using eBookShopping.CartAPI.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -44,8 +45,14 @@ namespace eBookShopping.CartAPI
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<ICartRepository, CartRepository>();
+            services.AddScoped<ICouponRepository, CouponRepository>();
 
+            services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
             services.AddControllers();
+
+
+            services.AddHttpClient<ICouponRepository, CouponRepository>(s => s.BaseAddress =
+                new Uri(Configuration["ServiceUrls:CouponAPI"]));
 
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
@@ -107,6 +114,8 @@ namespace eBookShopping.CartAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "eBookShopping.CartAPI v1"));
             }
+
+            app.UseHttpsRedirection();
 
             app.UseRouting();
             app.UseAuthentication();

@@ -132,3 +132,6 @@ C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSh
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CartAPI\obj\Debug\net6.0\eBookShopping.CartAPI.pdb
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CartAPI\obj\Debug\net6.0\eBookShopping.CartAPI.genruntimeconfig.cache
 C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CartAPI\obj\Debug\net6.0\ref\eBookShopping.CartAPI.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CartAPI\bin\Debug\net6.0\eBookShopping.MessageBus.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.CartAPI\bin\Debug\net6.0\eBookShopping.MessageBus.pdb
