@@ -165,9 +165,9 @@ namespace eBookShopping.SpecflowTesting.StepDefinitions
         }
 
         [Then(@"the result should have status '([^']*)'")]
-        public void ThenTheResultShouldHaveStatus(string p0)
+        public void ThenTheResultShouldHaveStatus(int expectedStatus)
         {
-            _httpResponseMessage.StatusCode.Should().Be(HttpStatusCode.Created);
+            _httpResponseMessage.StatusCode.Should().Be((HttpStatusCode)expectedStatus);
         }
 
     }

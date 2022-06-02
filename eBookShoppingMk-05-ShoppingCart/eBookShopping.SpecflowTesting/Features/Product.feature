@@ -7,7 +7,7 @@ Scenario: Get all the products in the database successfully
 	Then the result should have status code '200'
 
 Scenario: Create a product successfully
-	Given That the user is authenticated
+	Given That the user is authenticated with a token
 	When I create a product with the following details
 		| id | name                                        | price | description               | categoryName | imageUrl                                                         |
 		| 10 | The Sailor who fell from grace with the sea | 59.90 | An Novel By Yukio Mishima | Novel        | https://images-na.ssl-images-amazon.com/images/I/91VHGE-qsxL.jpg |
