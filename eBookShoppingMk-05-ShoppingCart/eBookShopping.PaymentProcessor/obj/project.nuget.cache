@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EYDWA95v5Va/6oitQUN2hnmgrkzHY5alRbI5jsgA9CxtQ+/55DCZvVQdOVBPyDmSud/RC8WCjuLtTINijRgULA==",
+  "dgSpecHash": "y4zpcAhy8NaKbYKhqbJiZ5fCx7UtPp3+1fy2weSH6UIqzeLGQRuk/dI31tR2Yj74GBWCcud4f5/vvbc2IDCoLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj",
+  "projectFilePath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

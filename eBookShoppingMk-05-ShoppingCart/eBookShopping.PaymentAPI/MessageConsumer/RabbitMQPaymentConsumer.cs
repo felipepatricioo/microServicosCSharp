@@ -23,10 +23,11 @@ namespace eBookShopping.PaymentAPI.MessageConsumer
 
             var factory = new ConnectionFactory
             {
-                HostName = "localhost",
+                HostName = "127.0.0.1",
                 UserName = "guest",
                 Password = "guest"
             };
+
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();
             _channel.QueueDeclare(queue: "orderpaymentprocessqueue", false, false, false, arguments: null);

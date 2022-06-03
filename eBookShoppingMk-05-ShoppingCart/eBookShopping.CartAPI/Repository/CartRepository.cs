@@ -20,7 +20,7 @@ namespace eBookShopping.CartAPI.Repository
         public async Task<bool> ApplyCoupon(string userId, string couponCode)
         {
             var header = await _context.CartHeaders
-            .FirstOrDefaultAsync(c => c.UserId == userId);
+                        .FirstOrDefaultAsync(c => c.UserId == userId);
             if (header != null)
             {
                 header.CouponCode = couponCode;
@@ -28,7 +28,20 @@ namespace eBookShopping.CartAPI.Repository
                 await _context.SaveChangesAsync();
                 return true;
             }
+            return false;
+        }
 
+        public async Task<bool> RemoveCoupon(string userId)
+        {
+            var header = await _context.CartHeaders
+                        .FirstOrDefaultAsync(c => c.UserId == userId);
+            if (header != null)
+            {
+                header.CouponCode = "";
+                _context.CartHeaders.Update(header);
+                await _context.SaveChangesAsync();
+                return true;
+            }
             return false;
         }
 
@@ -58,22 +71,8 @@ namespace eBookShopping.CartAPI.Repository
             cart.CartDetails = _context.CartDetails
                 .Where(c => c.CartHeaderId == cart.CartHeader.Id)
                     .Include(c => c.Product);
+
             return _mapper.Map<CartVO>(cart);
-        }
-
-        public async Task<bool> RemoveCoupon(string userId)
-        {
-            var header = await _context.CartHeaders
-            .FirstOrDefaultAsync(c => c.UserId == userId);
-            if (header != null)
-            {
-                header.CouponCode = "";
-                _context.CartHeaders.Update(header);
-                await _context.SaveChangesAsync();
-                return true;
-            }
-
-            return false;
         }
 
         public async Task<bool> RemoveFromCart(long cartDetailsId)

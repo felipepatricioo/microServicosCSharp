@@ -40,6 +40,7 @@ namespace eBookShopping.Web.Controllers
             return View(model);
         }
 
+
         [HttpPost]
         [ActionName("Details")]
         [Authorize]
@@ -47,7 +48,7 @@ namespace eBookShopping.Web.Controllers
         {
             var token = await HttpContext.GetTokenAsync("access_token");
 
-            var cart = new CartViewModel
+            CartViewModel cart = new()
             {
                 CartHeader = new CartHeaderViewModel
                 {

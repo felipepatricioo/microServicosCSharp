@@ -50,7 +50,6 @@ namespace eBookShopping.CartAPI
             services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
             services.AddControllers();
 
-
             services.AddHttpClient<ICouponRepository, CouponRepository>(s => s.BaseAddress =
                 new Uri(Configuration["ServiceUrls:CouponAPI"]));
 

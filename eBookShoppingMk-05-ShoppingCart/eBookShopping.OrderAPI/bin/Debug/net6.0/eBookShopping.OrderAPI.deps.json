@@ -17,7 +17,8 @@
           "Swashbuckle.AspNetCore": "6.3.0",
           "Swashbuckle.AspNetCore.Annotations": "6.3.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.3.0",
-          "eBookShopping.CartAPI": "1.0.0"
+          "eBookShopping.CartAPI": "1.0.0",
+          "eBookShopping.PaymentProcessor": "1.0.0"
         },
         "runtime": {
           "eBookShopping.OrderAPI.dll": {}
@@ -588,6 +589,11 @@
         "runtime": {
           "eBookShopping.MessageBus.dll": {}
         }
+      },
+      "eBookShopping.PaymentProcessor/1.0.0": {
+        "runtime": {
+          "eBookShopping.PaymentProcessor.dll": {}
+        }
       }
     }
   },
@@ -1009,6 +1015,11 @@
       "sha512": ""
     },
     "eBookShopping.MessageBus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eBookShopping.PaymentProcessor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

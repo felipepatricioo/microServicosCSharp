@@ -1,0 +1,12 @@
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\bin\Debug\net6.0\eBookShopping.PaymentProcessor.deps.json
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\bin\Debug\net6.0\eBookShopping.PaymentProcessor.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\bin\Debug\net6.0\eBookShopping.PaymentProcessor.pdb
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\eBookShopping.PaymentProcessor.csproj.AssemblyReference.cache
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\eBookShopping.PaymentProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\eBookShopping.PaymentProcessor.AssemblyInfoInputs.cache
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\eBookShopping.PaymentProcessor.AssemblyInfo.cs
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\eBookShopping.PaymentProcessor.csproj.CoreCompileInputs.cache
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\eBookShopping.PaymentProcessor.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\refint\eBookShopping.PaymentProcessor.dll
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\eBookShopping.PaymentProcessor.pdb
+C:\Users\estagiario\Desktop\treinamento-six\microServicos\teste\microServicosCSharp\eBookShoppingMk-05-ShoppingCart\eBookShopping.PaymentProcessor\obj\Debug\net6.0\ref\eBookShopping.PaymentProcessor.dll

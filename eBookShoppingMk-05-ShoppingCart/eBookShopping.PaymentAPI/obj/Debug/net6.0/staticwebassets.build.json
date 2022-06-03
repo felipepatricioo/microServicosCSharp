@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FoxJblOhQDnhZz87JTf+iOEy6GVT6RzoIC4ObRVw9rs=",
+  "Source": "eBookShopping.PaymentAPI",
+  "BasePath": "_content/eBookShopping.PaymentAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

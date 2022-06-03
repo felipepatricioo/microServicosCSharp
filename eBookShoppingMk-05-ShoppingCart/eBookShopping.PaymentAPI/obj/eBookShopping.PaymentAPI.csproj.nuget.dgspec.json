@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\eBookShopping.PaymentAPI.csproj": {}
+    "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\eBookShopping.PaymentAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj": {
+    "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj",
+        "projectUniqueName": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj",
         "projectName": "eBookShopping.MessageBus",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\obj\\",
+        "projectPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj",
+        "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\estagiario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,24 +59,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\eBookShopping.PaymentAPI.csproj": {
+    "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\eBookShopping.PaymentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\eBookShopping.PaymentAPI.csproj",
+        "projectUniqueName": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\eBookShopping.PaymentAPI.csproj",
         "projectName": "eBookShopping.PaymentAPI",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\eBookShopping.PaymentAPI.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\obj\\",
+        "projectPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\eBookShopping.PaymentAPI.csproj",
+        "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\estagiario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -90,11 +92,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj": {
-                "projectPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj"
+              "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj": {
+                "projectPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.MessageBus\\eBookShopping.MessageBus.csproj"
               },
-              "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj": {
-                "projectPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj"
+              "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj": {
+                "projectPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj"
               }
             }
           }
@@ -168,24 +170,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj": {
+    "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj",
+        "projectUniqueName": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj",
         "projectName": "eBookShopping.PaymentProcessor",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\coding\\projetos-paralelos\\aprendendoCsharpNET\\microServices\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\obj\\",
+        "projectPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\eBookShopping.PaymentProcessor.csproj",
+        "packagesPath": "C:\\Users\\estagiario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\estagiario\\Desktop\\treinamento-six\\microServicos\\teste\\microServicosCSharp\\eBookShoppingMk-05-ShoppingCart\\eBookShopping.PaymentProcessor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\estagiario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -226,7 +229,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
